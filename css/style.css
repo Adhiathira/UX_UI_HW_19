@@ -1,0 +1,298 @@
+* {
+    max-width: 1800px;
+
+}
+
+/* Navigation section*/
+
+.navigation {
+    background-color: #181D26;
+    display: flex;
+    padding: 2%;
+    border-bottom: 1px solid #918f8f;
+    box-shadow: #1EAE98;
+}
+
+.logo {
+
+    width: 5%;
+    height: 5%;
+    margin-left: 0%;
+
+}
+
+h1 {
+    margin-left: 1%;
+    font-size: 32px;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
+    color: #D9D9D9;
+}
+
+
+
+/* second section*/
+
+/*JS Thing */
+
+canvas {
+    display: block;
+    vertical-align: bottom;
+
+}
+
+/* ---- particlescontainer JS Thing */
+#particles-js {
+    position: absolute;
+    height: 50%;
+    width: 70%;
+    opacity: 0.5;
+
+}
+
+
+
+
+
+/* second section inside*/
+
+.descriptionbox {
+    background-color: #8c9aaf;
+    display: flex;
+    align-items: center;
+}
+
+
+.summary {
+
+    display: flex;
+}
+
+
+.details {
+    width: auto;
+    margin-left: 10%;
+    padding: 2%;
+}
+
+/* color words  */
+.summary h3 {
+    font-size: 3vw;
+    background: #C23BFF;
+    background: linear-gradient(to right, #C23BFF 0%, #3D99F5 89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.summary h4 {
+    font-size: 1vw;
+    color: #D9D9D9;
+    max-width: fit-content;
+}
+
+
+.heart {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.heart p {
+
+    color: rgb(229, 79, 129);
+    font-size: xx-large;
+}
+
+.profilepic {
+    height: auto;
+}
+
+
+
+
+/* box  section*/
+
+.outterbox {
+    display: grid;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    background-color: #12181F;
+}
+
+
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000%;
+    background-color: #12181F;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.box1 {
+    background-color: #F3C033;
+    background-image: url("../images/greenbox.png");
+    position: relative;
+    background-repeat: no-repeat;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.box2 {
+
+    background-image: url("../images/pinkbox.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.box3 {
+    background-image: url("../images/bluebox.png");
+
+    background-repeat: no-repeat;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.box4 {
+    background-image: url("../images/yellowbox.png");
+    background-repeat: no-repeat;
+    position: relative;
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.box1 h2,
+.box2 h2,
+.box3 h2,
+.box4 h2 {
+    margin-bottom: 10px;
+    margin-left: 15%;
+    color: #FFFFFF;
+    font-family: sans-serif;
+}
+
+.box1 p,
+.box2 p,
+.box3 p,
+.box4 p {
+    margin: 0;
+    margin-top: 77%;
+    color: #FFFFFF;
+}
+
+.line {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-left: -5.2%;
+    margin-top: 60%;
+}
+
+.line::before {
+    content: '';
+    position: absolute;
+    height: 2px;
+    width: 79%;
+    background-color: #FFFFFF;
+    transform: rotate(-90deg);
+    left: 40%;
+    bottom: 7800%;
+}
+
+
+
+
+
+
+/* footer section*/
+
+.footerhead {
+    display: flex;
+    justify-content: space-between;
+    background-color: #636b7a;
+    padding: 2%;
+    border-top: 1px solid #918f8f;
+    box-shadow: #1EAE98;
+
+}
+
+.footeritems {
+    align-items: center;
+    justify-content: center;
+    background-color: #181D26;
+    width: 15%;
+
+
+}
+
+.footeritems h3 {
+    color: #D9D9D9;
+    font-size: 180%;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+footer ul {
+    display: inline-block;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1%;
+    background-color: #181D26;
+    width: 80%;
+}
+
+footer a {
+    font-size: 150%;
+    color: #D9D9D9;
+    justify-content: space-around;
+    width: 10%;
+}
+
+li {
+    display: inline-block;
+}
+
+
+.keyword {
+    width: 25%;
+    background-color: #181D26;
+    align-items: end;
+
+}
+
+.keyword h5 {
+    color: #D9D9D9;
+    font-size: 170%;
+}
