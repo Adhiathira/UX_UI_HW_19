@@ -194,6 +194,7 @@ canvas {
     font-size: 25px;
     padding: 4%;
     font-weight: 600;
+    color: white;
 
 }
 
@@ -203,6 +204,7 @@ canvas {
     margin: 4%;
     margin-top: 57%;
     font-weight: 600;
+    color: white;
 }
 
 /*casestudies*/
@@ -212,11 +214,7 @@ canvas {
 
 }
 
-.casestudy h2 {
-    color: white;
-    margin-left: 35%;
-    padding: 1%;
-}
+
 
 .myprojects {
     background-color: #1D2630;
@@ -225,11 +223,21 @@ canvas {
 
 
 
-.card-body1 {
-    background-color: #1D2630;
+
+.card-body1 h5 {
     font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 200%;
     color: #D9D9D9;
 }
+
+.card-body1 p {
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 200%;
+    color: #D9D9D9;
+}
+
 
 
 .col-md-4 {
